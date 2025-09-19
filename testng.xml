@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="F:/Education/javaprojects/APIAutomationFrameworkATB13x/src/test/java/com/test/practiceframework/tests/restfulbooker/e2e_integration">
+        <classes>
+            <class name="com.test.practiceframework.tests.restfulbooker.e2e_integration.TestIntegrationFlow1">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testVerifyBookingId"/>
+                    <include name="testUpdateBookingByID"/>
+                    <include name="testDeleteBookingById"/>
+                </methods>
+            </class>
+            <class name="com.test.practiceframework.tests.restfulbooker.e2e_integration.TestIntegrationFlow2">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testVerifyBookingId"/>
+                    <include name="testCreateToken"/>
+                    <include name="testPartialUpdateBookingByID"/>
+                    <include name="testDeleteBookingById"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
